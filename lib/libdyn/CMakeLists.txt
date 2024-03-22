@@ -9,7 +9,7 @@ project(
 
 set(CMAKE_C_STANDARD 17)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(include)
 
 file(GLOB_RECURSE SOURCES "src/*.c")
 
