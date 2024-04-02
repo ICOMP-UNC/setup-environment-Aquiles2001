@@ -1,4 +1,5 @@
-#pragma once
+#ifndef LOGIC_H_
+#define LOGIC_H_
 
 /**
  * @brief This function calculates the addition of two natural numbers.
@@ -10,7 +11,7 @@ int add(int a, int b);
 /**
  * @brief This function calculates the subtraction of two natural numbers.
  * @param a First number to subtract.
- * @param b Second number to subtract. 
+ * @param b Second number to subtract.
  */
 int subtract(int a, int b);
 
@@ -27,3 +28,5 @@ int multiply(int a, int b);
  * @param b Second number to divide.
  */
 double divide(int a, int b);
+
+#endif // LOGIC_H_

@@ -1,7 +1,7 @@
 #include <greetings.h>
 #include <stdio.h>
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
     printf("main says hello!\n");
     greetings();
@@ -10,4 +10,3 @@ int main(int argc, char *argv[])
     printf("Shared lib function returned: %d\n", shared_lib_function("Hello, shared lib!"));
     return 0;
 }
- 
